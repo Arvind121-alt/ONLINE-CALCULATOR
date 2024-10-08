@@ -1,0 +1,75 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:firebrick;
+}
+.nor{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    height:50px;
+    width:50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap:10px;
+}
+.container input{
+    text-align: right;
+}
+.container{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 40%;
+    background-color: black;
+    height: 450px;
+    width:300px;
+    border-radius: 10px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+input{
+    height: 60px;
+    width:97%;
+    font-size: xx-large;
+}
+.allclear{
+    background-color: green;
+    border: none;
+    color:white;
+    font-size: larger;
+}
+.clear{
+    background-color: red;
+    color:white;
+    border: none;
+    font-size: larger;
+}
+#equal{
+    border-radius: 30%;
+    border: none;
+    background-color: greenyellow;
+    font-size: x-large;
+}
+#number{
+    font-size: larger;
+    background-color: cadetblue;
+    border: none;
+}
+#button{
+    background-color:salmon;
+    color:white;
+    font-size:xx-large;
+    border: none;
+}
+#dot{
+    border: none;
+    background-color: cadetblue;
+    font-size: x-large;
+}
